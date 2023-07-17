@@ -1,3 +1,4 @@
+import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { Task } from "./Task";
 import { TaskInput } from "./TaskInput";
@@ -19,11 +20,11 @@ export default function Home() {
       </div>
 
       {/* //footer section */}
-      <div className="mt-3">
-        <p className="text-secondary text-center">
-          copyright © 2023 Kitpakorn Thongkot 650610749
-        </p>
-      </div>
+      <Footer
+        year="2023"
+        fullName="Kitpakorn Thongkot"
+        studentId="650610749"
+      ></Footer>
     </div>
   );
 }
