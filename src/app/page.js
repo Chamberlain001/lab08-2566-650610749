@@ -1,4 +1,5 @@
 import { Header } from "./Header";
+import { Task } from "./Task";
 import { TaskInput } from "./TaskInput";
 
 export default function Home() {
