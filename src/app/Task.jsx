@@ -1,8 +1,7 @@
-export const Task = () => {
-  const tasks = ["Read a book", "Take a shower", "Sleep"];
+export const Task = (title) => {
   return (
-    <div className="d-flex p-3 gap-2 align-items-center border-bottom">
-      {tasks.map((task, i) => (
+    <div className="d-flex p-3 gap-2 align-items-center border-bottom ">
+      {title.map((task, i) => (
         <li key={i}>
           <span> {task} </span>
           <button className="btn btn-success">Done</button>
