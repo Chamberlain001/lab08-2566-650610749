@@ -1,15 +1,11 @@
+import { Header } from "./Header";
+
 export default function Home() {
   return (
     // Main container
     <div className="container mx-auto">
       {/* header section */}
-      <div>
-        <h4 className="display-4 fst-italic text-center">Todo List Mock Up</h4>
-        <p className="text-secondary text-center">
-          This lab teach you how to split react component(s)
-        </p>
-      </div>
-
+      <Header></Header>
       {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
